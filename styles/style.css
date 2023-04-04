@@ -31,7 +31,12 @@
   position: absolute;
   left: 64px;
   top: 30px;
+  background-image: url(../images/logo_place_header.svg);
   }
+
+.logo_place_footer {
+  background-image: url(../images/logo_place_footer.svg);
+   }
 
 .header__title {
   margin: 0 0 0 64px;
@@ -289,8 +294,10 @@
     width: 877px;
     height: 877px;
     background-image: url("../images/kaufman-triangle.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
     z-index: 0;
-     }
+    }
 
 .footer {
   display: flex;
