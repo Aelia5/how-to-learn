@@ -1,0 +1,47 @@
+[33mcommit cf19364b392b5a492bbcf2ec1ccaa9bc2c87b42a[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Olga Liubimova <lov800@yandex.ru>
+Date:   Sat Apr 15 15:40:27 2023 +0300
+
+    Второй спринт
+
+[33mcommit 62518e3fa5cd0ca8b6aea6739d4abf465e13936b[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Olga Liubimova <lov800@yandex.ru>
+Date:   Tue Apr 4 12:27:49 2023 +0300
+
+    исправлены замечания ревьюера (2)
+
+[33mcommit 068875b618117c1d495ee28e4468e1bfaadcd3cd[m
+Author: Olga Liubimova <lov800@yandex.ru>
+Date:   Sun Apr 2 15:09:44 2023 +0300
+
+    Исправлены замечания ревьюера (1)
+
+[33mcommit 583186d6ddaae0683eaf3cb17e36cc55c0e3a218[m
+Author: Olga Liubimova <lov800@yandex.ru>
+Date:   Sun Apr 2 10:41:35 2023 +0300
+
+    Исправлены замечания автотестов
+
+[33mcommit b9e1041b86e7f4fe841db095efbcda512c614f0b[m
+Author: Olga Liubimova <lov800@yandex.ru>
+Date:   Sun Apr 2 10:40:47 2023 +0300
+
+    тест
+
+[33mcommit c5e05d5baa4d1d55eb9e1373d114a0718c42ed87[m
+Author: Olga Liubimova <lov800@yandex.ru>
+Date:   Sun Apr 2 10:37:57 2023 +0300
+
+    Bcghfdktys замечания автотестов
+
+[33mcommit bc67b3e8d89605af009aea07b101a2ac001f91f8[m
+Author: Olga Liubimova <lov800@yandex.ru>
+Date:   Sun Apr 2 10:24:04 2023 +0300
+
+    Первая версия проекта
+
+[33mcommit 60a9afe358a8f28751bb54664451b0eeb9cadae7[m
+Author: Aelia5 <129150556+Aelia5@users.noreply.github.com>
+Date:   Tue Mar 28 18:09:10 2023 +0300
+
+    Initial commit
