@@ -1,0 +1,11 @@
+.header__title {
+  margin: 0 0 0 64px;
+  padding: 0;
+  max-width: 730px;
+  z-index: 2;
+  align-self: center;
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: 600;
+  color: #000000; /*по умолчанию цвет и так чёрный, но он указан в брифе, поэтому прописала*/
+}
