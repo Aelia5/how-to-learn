@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Основные принципы обучения">
   <meta name="keywords" content="обучение цифры и факты метод Фейнмана принципы Кауфмана">
@@ -20,7 +20,7 @@
       <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
-      <section class="description">
+      <section class="description" aria-label="Главные проблемы в обучении">
         <article class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
@@ -74,7 +74,7 @@ allowfullscreen></iframe>
 <!--Хотела написать между тегами video текст "Ваш браузер не поддерживает воспроизведение встроенного видео", но автотесты его не пропустили-->
         </div>
       </section>
-      <section class="oakley">
+      <section class="oakley" aria-label="История Барбары Оакли">
         <article class="two-columns">
           <h2 class="two-columns__brief">История Барбары Оакли.</h2>
           <div class="two-columns__main-text">
@@ -85,7 +85,7 @@ allowfullscreen></iframe>
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть.</p>
-        <a class="feynman__link transparent-hover" href="#">Подробнее &rarr;</a>
+        <a class="feynman__link transparent-hover" href="#" target="_blank">Подробнее &rarr;</a>
       </section>
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
@@ -129,14 +129,14 @@ allowfullscreen></iframe>
       </section>
       <section class="khan">
         <div class="khan__container">
-          <h3 class="khan__author">Салман Хан</h3>
+          <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
           <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Обложка книги С. Хана">
-            <a class="khan__buy-link transparent-hover" href="#">Купить книгу &rarr;</a>
+            <a class="khan__buy-link transparent-hover" href="#" target="_blank">Купить книгу &rarr;</a>
           </div>
         </div>
       </section>
@@ -190,13 +190,12 @@ allowfullscreen></iframe>
         <section class="resources">
           <h2 class="section-title">Полезные ресурсы</h2>
           <h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
-          <nav class="resources__logo-zone">
-            <a href="#"  class="resources__logo"><img class="resources__logo transparent-hover" src="./images/logo/resources-arzamas.svg" alt="Арзамас"></a>
-            <a href="#"  class="resources__logo"><img class="resources__logo transparent-hover" src="./images/logo/resources-n1.svg" lang="en" alt="N + 1"></a>
-            <a href="#"  class="resources__logo"><img class="resources__logo transparent-hover" src="./images/logo/resources-strelka.svg" lang="en" alt="Strelka"></a>
-            <a href="#"  class="resources__logo"><img class="resources__logo transparent-hover" src="./images/logo/resources-polka.svg" alt="Полка"></a>
-            <!--Задаю класс resources-logo в двух местах, т.к. если задать только ссылке - не получается спозиционировать картинку, а если только картинке - увеличивается высота контейнера. Лучше было бы сделать картинки фоном и использовать модификаторы, но они не предусмотрены брифом-->
-          </nav>
+          <div class="resources__logo-zone">
+            <a href="#" target="_blank" class="resources__link transparent-hover"><img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Арзамас"></a>
+            <a href="#" target="_blank" class="resources__link transparent-hover"><img class="resources__logo" src="./images/logo/resources-n1.svg" lang="en" alt="N + 1"></a>
+            <a href="#" target="_blank" class="resources__link transparent-hover"><img class="resources__logo" src="./images/logo/resources-strelka.svg" lang="en" alt="Strelka"></a>
+            <a href="#" target="_blank" class="resources__link transparent-hover"><img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Полка"></a>
+          </div>
         </section>
     </main>
     <footer class="footer">
