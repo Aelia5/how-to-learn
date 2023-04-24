@@ -1,0 +1,11 @@
+.form__pseudoitem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px 0 0;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  cursor: pointer;
+}

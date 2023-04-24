@@ -1,0 +1,16 @@
+.form__item_el_radio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+}
+
+.form__item_el_radio:focus {
+  outline: none;
+}
+
+.form__item_el_radio:checked + .form__pseudoitem {
+ background-color: #2f80ed;
+}

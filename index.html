@@ -65,13 +65,15 @@
         <h2 class="section-title">Видео на TED</h2>
         <h3 class="section-subtitle">Для тех, кто любит прокрастинировать</h3>
         <div class="video__iframes">
-          <iframe id="caufman" class="video__iframe"
-src="https://www.youtube.com/embed/5MgBikgcWnY?hl=ru&modestbranding=1"
-allowfullscreen></iframe>
           <iframe id="urban" class="video__iframe"
 src="https://www.youtube.com/embed/arj7oStGLkU?hl=ru&modestbranding=1"
 allowfullscreen></iframe>
-<!--Хотела написать между тегами video текст "Ваш браузер не поддерживает воспроизведение встроенного видео", но автотесты его не пропустили-->
+          <video class="video__iframe" controls poster="/images/zygmantovich.png">
+            <source src="./video/zygmantovich.mp4" type="video/mp4">
+            <source src="./video/zygmantovich.mov" type="video/mov">
+            <source src="./video/zygmantovich.ogg" type="video/ogg">
+            <source src="./video/zygmantovich.webm" type="video/webm">
+          </video>
         </div>
       </section>
       <section class="oakley" aria-label="История Барбары Оакли">
@@ -196,6 +198,64 @@ allowfullscreen></iframe>
             <a href="#" target="_blank" class="resources__link transparent-hover"><img class="resources__logo" src="./images/logo/resources-strelka.svg" lang="en" alt="Strelka"></a>
             <a href="#" target="_blank" class="resources__link transparent-hover"><img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Полка"></a>
           </div>
+        </section>
+        <section class="form">
+          <p2 class="section-title">Обратная связь</p2>
+          <p3 class="section-subtitle">Напишите нам письмо</p3>
+          <form class="form__admin">
+            <div class="form__columns">
+              <div class="form__column form__column_content_contacts">
+                <h4 class="form__heading">Ваши контакты</h4>
+                <fieldset class="form__field form__field_content_contacts">
+                  <label for="name" class="form__label">Как к вам обращаться?</label>
+                  <input type="text" class="form__item form__item_el_contacts" id="name" name="name" placeholder="Иван Иванов">
+                  <label for="phone" class="form__label">Телефон</label>
+                  <input type="tel" class="form__item form__item_el_contacts" id="phone" name="phone" placeholder="+7(999)123-45-67">
+                  <label for="email" class="form__label">Электронная почта</label>
+                  <input type="email" class="form__item form__item_el_contacts" id="email" name="email" placeholder="hello@example.com">
+                </fieldset>
+              </div>
+              <div class="form__column form__column_content_commentary">
+                <h4 class="form__heading">Ваш комментарий</h4>
+                <fieldset class="form__field form__field_content_commentary">
+                  <label for="commentary" class="form__label">Расскажите о ваших впечатлениях</label>
+                  <textarea class="form__item form__item_el_commentary" id="commentary" name="commentary" required></textarea>
+                </fieldset>
+                <h5 class="form__label">Оцените наш сайт</h5>
+                <fieldset class="form__field form__field_content_rate">
+                  <label class="form__radio-container">
+                    <input type="radio" name="rate" id="one" class="form__item form__item_el_radio" value="one">
+                    <span class="form__pseudoitem"></span>
+                    <span class="form__label form__label_direction_bottom" for="one">1</span>
+                  </label>
+                  <label class="form__radio-container">
+                    <input type="radio" name="rate" id="two" class="form__item form__item_el_radio" value="two">
+                    <span class="form__pseudoitem"></span>
+                    <span class="form__label  form__label_direction_bottom" for="two">2</span>
+                  </label>
+                  <label class="form__radio-container">
+                    <input type="radio" name="rate" id="three" class="form__item form__item_el_radio" value="three">
+                    <span class="form__pseudoitem"></span>
+                    <span class="form__label  form__label_direction_bottom" for="three">3</span>
+                  </label>
+                  <label class="form__radio-container">
+                    <input type="radio" name="rate" id="four" class="form__item form__item_el_radio" value="four">
+                    <span class="form__pseudoitem"></span>
+                    <span class="form__label  form__label_direction_bottom" for="four">4</span>
+                  </label>
+                  <label class="form__radio-container">
+                    <input type="radio" name="rate" id="five" class="form__item form__item_el_radio" value="five">
+                    <span class="form__pseudoitem"></span>
+                    <span class="form__label  form__label_direction_bottom" for="five">5</span>
+                  </label>
+                </fieldset>
+              </div>
+            </div>
+            <fieldset class="form__field form__field_content_handlers">
+              <input type="submit" class="form__button form__button_type_submit transparent-hover">
+              <input type="reset" class="form__button form__button_type_reset transparent-hover">
+            </fieldset>
+          </form>
         </section>
     </main>
     <footer class="footer">

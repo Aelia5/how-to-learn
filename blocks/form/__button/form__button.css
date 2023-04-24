@@ -1,0 +1,17 @@
+.form__button {
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  border: 0;
+  margin: 0;
+  padding: 5px;
+  cursor: pointer;
+  font-family: inherit;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  }
+
+.form__button:focus {
+  outline: 2px solid #000;
+  border: none;
+}
