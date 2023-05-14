@@ -3,7 +3,7 @@
 
 ## Автор: Ольга Любимова
 
-##[Страница на GithubPages](https://aelia5.github.io/how-to-learn/)
+## [Страница на GithubPages](https://aelia5.github.io/how-to-learn/)
 
 Это страница, посвящённая различным принципам и методам эффективного обучения.
 
